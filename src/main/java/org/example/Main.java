@@ -54,5 +54,14 @@ public class Main {
             return false;
         }
     }
+// Задача 3.2.1 проверка полиндрома по символу
+    static boolean isPalindrome(String word) {
+        for (int i = 0; i < (word.length() / 2); i++) {
+            if (word.charAt(i) != word.charAt(word.length() - i - 1)) {
+                return false;
+            }
+        }
+        return true;
+    }
 
 }
