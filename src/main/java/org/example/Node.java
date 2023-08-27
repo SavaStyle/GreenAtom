@@ -1,5 +1,6 @@
 package org.example;
 
+
 public class Node {
 
     String value;
@@ -9,4 +10,5 @@ public class Node {
         this.value = value;
         this.next = next;
     }
+
 }
